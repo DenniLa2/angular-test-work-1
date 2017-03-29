@@ -90,6 +90,7 @@ aside ul li div {
   min-height: 526px;
   box-sizing: border-box;
   padding: 20px 13px 30px 30px;
+  background-color: white;
   -webkit-box-shadow: 1px 1px 7px 0 rgba(100, 100, 100, 0.5);
   -moz-box-shadow: 1px 1px 7px 0 rgba(100, 100, 100, 0.5);
   box-shadow: 1px 1px 7px 0 rgba(100, 100, 100, 0.5);
@@ -169,6 +170,7 @@ aside ul li div {
   margin-left: 2%;
   margin-bottom: 25px;
   padding: 19px 22px 12px 17px;
+  background-color: white;
   -webkit-box-shadow: 1px 1px 7px 0 rgba(100, 100, 100, 0.5);
   -moz-box-shadow: 1px 1px 7px 0 rgba(100, 100, 100, 0.5);
   box-shadow: 1px 1px 7px 0 rgba(100, 100, 100, 0.5);
