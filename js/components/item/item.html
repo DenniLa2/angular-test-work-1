@@ -1,0 +1,7 @@
+<div class="item-component"
+     ng-click="$ctrl.onSelect($ctrl.itemData.id)"
+     ng-class="{selected: $ctrl.isSelected}">
+  <span>
+    <span>{{$ctrl.itemData.name}}</span><span class="comments-count">{{$ctrl.itemData.commentsCount || 0}}</span></span>
+  <button ng-click="$ctrl.onDelete($ctrl.itemData.id)">Delete</button>
+</div>

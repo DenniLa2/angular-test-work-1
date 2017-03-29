@@ -1,0 +1,10 @@
+<div class="comment-component">
+  <div class="avatar avatar-color"
+       ng-class="{'avatar-odd': $ctrl.isOdd}">
+
+  </div>
+  <div class="comment-text">{{$ctrl.commentText}}</div>
+  <div class="clear-fix"></div>
+  <div class="not-last" ng-if="!$ctrl.isLast"></div>
+</div>
+

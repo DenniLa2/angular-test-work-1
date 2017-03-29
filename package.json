@@ -1,0 +1,14 @@
+{
+  "name": "hr_empeek",
+  "version": "1.0.0",
+  "description": "test work for HR Empeek",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denni Adam (dennila2@ya.ru)",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.3"
+  }
+}

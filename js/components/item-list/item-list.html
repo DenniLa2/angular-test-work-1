@@ -1,0 +1,22 @@
+<div class="item-list-component">
+  <div class="items-wrapper">
+    <h1>Items</h1>
+    <div class="adder">
+      <input type="text"
+             placeholder="Type name here..."
+             ng-model="$ctrl.items.new">
+      <button ng-click="$ctrl.items.add()">Add new</button>
+    </div>
+
+    <item ng-repeat="item in $ctrl.items.list track by $index"
+          is-selected="$ctrl.items.selected == item.id"
+          item-data="item"
+          on-select="$ctrl.items.onSelect"
+          on-delete="$ctrl.items.onDelete">
+    </item>
+  </div>
+
+  <comment-list item-id="$ctrl.items.selected"
+                item-idx="$ctrl.items.selectedIdx">
+  </comment-list>
+</div>

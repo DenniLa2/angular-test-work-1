@@ -1,0 +1,19 @@
+<div class="comment-list-component">
+  <h1>Comments {{$ctrl.itemIdx === null ? '-' : '#' + ($ctrl.itemIdx + 1)}}</h1>
+  <comment ng-repeat="item in $ctrl.comments.list track by $index"
+           comment-text="item"
+           is-odd="$odd"
+           is-last="$last"></comment>
+
+  <div class="adder-wrapper" ng-if="$ctrl.itemId">
+    <div class="avatar avatar-gray"></div>
+    <div class="textarea-wrapper">
+      <textarea name="" id=""
+              rows="4"
+              my-enter="$ctrl.comments.add()"
+              ng-model="$ctrl.comments.new"></textarea>
+    </div>
+    <div class="clear-fix"></div>
+  </div>
+</div>
+
